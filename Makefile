@@ -26,7 +26,7 @@ deploy:
 	pip install *.whl -U
 
 uninstall:
-	pip uninstall -y stafftools
+	pip uninstall -y kanboard_tools
 
 publish: clean
 	python setup.py build_py bdist_wheel upload -r daling
