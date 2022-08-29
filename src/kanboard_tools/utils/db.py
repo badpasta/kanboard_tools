@@ -13,7 +13,6 @@ from sqlalchemy import Column, SmallInteger, Decimal, String, create_engine
 from sqlalchemy.orm import sessionmaker
 
 
-
 Base = declarative_base()
 
 BASEINFO ={
